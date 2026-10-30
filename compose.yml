@@ -71,7 +71,7 @@ services:
 
   ################################################################################
   cdp-uploader:
-    image: defradigital/cdp-uploader:1.19.0@sha256:7aaa9b592b5243cdd819c9fd61b0ed1beede2cc69b4e0ba6e662cb4c6e7f26a6
+    image: defradigital/cdp-uploader:1.28.0@sha256:c2ad7db7c7141a02d1dfd621ace5bf628bd71d156bbe6bd7dbd976f0468f9845
     ports:
       - '7337:7337'
     depends_on:
@@ -134,7 +134,7 @@ services:
       retries: 3
 
   epr-re-ex-entra-stub:
-    image: defradigital/epr-re-ex-entra-stub:0.87.0@sha256:84aed5bb7e1bd9f425e637d34f95f7dfbe76c4fd628a1ebdcfc40ba46ebf75dc
+    image: defradigital/epr-re-ex-entra-stub:0.160.0@sha256:85b5300164db01428bb8a546551dea9b2aa109eb327a1df6e29898877704c0bf
     ports:
       - 3010:3010
     environment:
